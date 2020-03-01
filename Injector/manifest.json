@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "0.4.0",
+  "description": "CSS injector",
+  "icons": { "16": "icon_16.png" },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "http://*/",
+    "https://*/"
+  ],
+  "browser_action": {
+    "default_title": "CSS injector",
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [ "script_bg.js" ]
+  }
+}

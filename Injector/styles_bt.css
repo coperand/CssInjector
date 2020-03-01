@@ -1,0 +1,57 @@
+body {
+    min-height: 200px;
+    width: 400px;
+}
+
+.url_area {
+    display: none;
+}
+
+button {
+    color: white;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid white;
+    float: right;
+    text-shadow: -0 -1px 0 #4A5917, 0 -1px 0 #4A5917, -0 1px 0 #4A5917, 0 1px 0 #4A5917, -1px -0 0 #4A5917, 1px -0 0 #4A5917, -1px 0 0 #4A5917, 1px 0 0 #4A5917, -1px -1px 0 #4A5917, 1px -1px 0 #4A5917, -1px 1px 0 #4A5917, 1px 1px 0 #4A5917, -1px -1px 0 #4A5917, 1px -1px 0 #4A5917, -1px 1px 0 #4A5917, 1px 1px 0 #4A5917;
+}
+
+    button:active {
+        background-color: #f7f7f7;
+    }
+
+    button:hover {
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+.clear_all_bt {
+    width: 135px;
+    margin: 0px 12px 0 0;
+}
+
+.save_bt {
+    width: 85px;
+    margin: 5px 17px 10px 0;
+}
+
+.style {
+    margin: 10px 30px 0 30px;
+    width: 320px;
+    min-height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.style:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.preview {
+    margin: 10px 0 0 33px;
+}
